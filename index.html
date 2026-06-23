@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joaquim Alves — Desenvolvedor Web</title>
+<meta name="description" content="Portfólio de Joaquim Alves, desenvolvedor web focado em criar soluções digitais rápidas, modernas e sob medida para pequenos negócios e profissionais liberais.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#topo" class="logo">JA<span class="logo-dot">.</span>dev</a>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato" class="nav-cta">Contato</a>
+  </nav>
+
+  <div class="header-controls">
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro e escuro" title="Alternar tema">
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">// disponível para novos projetos</p>
+        <h1>
+          Eu transformo <span class="text-accent">ideias</span><br>
+          em sites que <span class="text-underline">vendem</span>.
+        </h1>
+        <p class="hero-lede">
+          Sou Joaquim Alves, desenvolvedor web. Crio landing pages, sites institucionais
+          e lojas virtuais rápidas, responsivas e fáceis de manter — para o seu negócio
+          existir online do jeito certo.
+        </p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-ghost">Vamos conversar</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="terminal-title">joaquim@dev — zsh</span>
+          </div>
+          <div class="terminal-body" id="terminalBody"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVIÇOS ============ -->
+  <section id="servicos" class="section">
+    <div class="section-head">
+      <p class="eyebrow">serviços</p>
+      <h2>O que eu posso construir pra você</h2>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8M12 18v3"/></svg>
+        </div>
+        <h3>Landing Pages</h3>
+        <p>Páginas de conversão focadas em um único objetivo: transformar visita em cliente, lead ou venda.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg>
+        </div>
+        <h3>Sites Institucionais</h3>
+        <p>Presença digital sólida para o seu negócio, profissão ou marca pessoal, com a sua identidade visual.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M1 1h4l2.6 13.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+        </div>
+        <h3>Lojas Virtuais</h3>
+        <p>E-commerces simples e diretos, prontos para receber seus produtos e processar pedidos.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+        </div>
+        <h3>Manutenção & Melhorias</h3>
+        <p>Seu site já existe mas precisa de ajustes, novas seções ou um upgrade visual? Eu cuido disso.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS ============ -->
+  <section id="projetos" class="section">
+    <div class="section-head">
+      <p class="eyebrow">vitrine</p>
+      <h2>Projetos que já tiraram do papel</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <a href="https://joaquimwzx.github.io/projetoFinalizadoSpotify/" target="_blank" rel="noopener" class="project-thumb project-thumb--spotify" aria-label="Abrir SpotLearn 4.0 em nova aba">
+          <svg viewBox="0 0 400 240" class="thumb-svg" aria-hidden="true">
+            <rect width="400" height="240" fill="var(--thumb-spotify-bg)"/>
+            <circle cx="60" cy="190" r="90" fill="var(--thumb-spotify-accent)" opacity="0.18"/>
+            <circle cx="340" cy="40" r="70" fill="var(--thumb-spotify-accent)" opacity="0.12"/>
+            <g stroke="var(--thumb-spotify-accent)" stroke-width="3" fill="none" opacity="0.9">
+              <path d="M70 150c50-30 140-30 190 0"/>
+              <path d="M85 175c40-22 120-22 160 0"/>
+              <path d="M100 200c30-14 100-14 130 0"/>
+            </g>
+            <circle cx="60" cy="120" r="22" fill="var(--thumb-spotify-accent)"/>
+          </svg>
+          <span class="thumb-overlay">Ver dossiê <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
+        </a>
+        <div class="project-info">
+          <h3>SpotLearn 4.0</h3>
+          <p>Dossiê interativo explicando, em fluxograma, modelo de dados e análise de UX, como o algoritmo de recomendação do Spotify decide o que toca na sua Discover Weekly.</p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>UX Research</li>
+          </ul>
+          <a href="https://joaquimwzx.github.io/projetoFinalizadoSpotify/" target="_blank" rel="noopener" class="project-link">
+            joaquimwzx.github.io/projetoFinalizadoSpotify
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <a href="https://joaquimwzx.github.io/siteFortnite2010/" target="_blank" rel="noopener" class="project-thumb project-thumb--fortnite" aria-label="Abrir site Fortnite Fanpage em nova aba">
+          <svg viewBox="0 0 400 240" class="thumb-svg" aria-hidden="true">
+            <rect width="400" height="240" fill="var(--thumb-fortnite-bg)"/>
+            <polygon points="200,30 360,120 200,210 40,120" fill="var(--thumb-fortnite-accent)" opacity="0.16"/>
+            <polygon points="200,60 320,120 200,180 80,120" fill="var(--thumb-fortnite-accent)" opacity="0.3"/>
+            <rect x="170" y="90" width="60" height="60" fill="var(--thumb-fortnite-accent)" transform="rotate(45 200 120)"/>
+          </svg>
+          <span class="thumb-overlay">Ver site <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></span>
+        </a>
+        <div class="project-info">
+          <h3>Fortnite Fanpage</h3>
+          <p>Site fã-feito sobre o universo de Fortnite: história do jogo, galeria de skins, vídeo de gameplay, plataformas suportadas e formulário de contato funcional.</p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Formulários</li>
+          </ul>
+          <a href="https://joaquimwzx.github.io/siteFortnite2010/" target="_blank" rel="noopener" class="project-link">
+            joaquimwzx.github.io/siteFortnite2010
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section id="sobre" class="section section-about">
+    <div class="about-grid">
+      <div class="about-photo">
+        <!-- Foto de perfil -->
+        <img src="assets/img/foto-perfil.jpg" alt="Foto de Joaquim Alves" loading="lazy">
+      </div>
+
+      <div class="about-copy">
+        <p class="eyebrow">sobre mim</p>
+        <h2>Do zero ao primeiro deploy</h2>
+        <p>
+          Comecei na disciplina de Programação Web aprendendo a estruturar uma página em HTML
+          e hoje já entrego sites completos, do design ao deploy. Gosto de pegar uma ideia simples
+          e transformar em algo que funciona de verdade — rápido, organizado e bonito de usar.
+        </p>
+        <p>
+          Acredito em código limpo, interfaces sem excesso e em sempre testar no celular antes
+          de chamar de "pronto".
+        </p>
+
+        <div class="stack">
+          <h3>Stack & ferramentas</h3>
+          <ul class="stack-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git &amp; GitHub</li>
+            <li>GitHub Pages</li>
+            <li>Responsive Design</li>
+            <li>Figma</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section id="contato" class="section section-contact">
+    <div class="contact-card">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">vamos trabalhar juntos</p>
+        <h2>Tem uma ideia? Bora colocar no ar.</h2>
+        <p class="contact-lede">Me manda uma mensagem e conversamos sobre o seu projeto, sem compromisso.</p>
+      </div>
+
+      <div class="contact-actions">
+        <a href="https://wa.me/55000000000" target="_blank" rel="noopener" class="btn btn-primary btn-whatsapp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1-1.5-.7-2.5-1.3-3.5-2.9-.3-.4 0-.4.2-.7.1-.2.3-.4.4-.6.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.3 1 2.5 1.1 2.7.1.2 1.9 3 4.7 4 2.7 1 2.7.7 3.2.6.5-.1 1.6-.6 1.8-1.2.2-.6.2-1.1.2-1.2 0-.1-.2-.2-.4-.4Z"/><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 20.2 12 8.2 8.2 0 0 1 12 20.2Z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="mailto:joaquim.alves@example.com" class="btn btn-ghost">Enviar e-mail</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/joaquimalves" target="_blank" rel="noopener" aria-label="LinkedIn de Joaquim Alves">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 8.98h4v12H3v-12Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v6.25h-4v-5.54c0-1.32-.02-3.02-1.85-3.02-1.85 0-2.13 1.45-2.13 2.93v5.63h-4v-12Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/joaquimwzx" target="_blank" rel="noopener" aria-label="GitHub de Joaquim Alves">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5.01 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.69-4.58 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.57.69.48A10 10 0 0 0 12 2Z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Joaquim Alves. Desenvolvido com HTML, CSS e JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
